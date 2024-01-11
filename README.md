@@ -1,2 +1,2 @@
 # Raster-Clustering-Cropping-Tool
- This project aims to enhance the efficiency of processing large raster files by implementing a clustering algorithm to group polygons into distinct objects of interest
+This project employs the DBSCAN clustering algorithm to group polygons within large raster files, facilitating the identification of distinct objects of interest. Through subsequent raster cropping based on the clustered regions, the tool effectively mitigates memory issues and class imbalance, producing refined output files with significantly reduced background data and improved spatial data processing efficiency.
